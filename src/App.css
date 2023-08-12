@@ -1,0 +1,133 @@
+.App {
+  background-color: azure;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homePage-buttons {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.login-box {
+  background-color: rgb(45, 211, 175);
+  border-radius: 10px;
+  opacity: 1;
+  width: 450px;
+  height: 600px;
+
+  >div {
+    >img {
+      margin-top: 40px;
+      width: 100px;
+      height: 100px;
+      margin-left: 170px;
+    }
+  }
+
+  >div {
+    >.input-box {
+      border: none;
+      background-color: transparent;
+    }
+  }
+}
+
+.signup-box {
+  background-color: rgb(45, 211, 175);
+  border-radius: 10px;
+  opacity: 1;
+  width: 450px;
+  height: 600px;
+
+  >div {
+    >img {
+      margin-top: 40px;
+      width: 100px;
+      height: 100px;
+      margin-left: 170px;
+    }
+  }
+
+  >div {
+    >.input-box {
+      border: none;
+      background-color: transparent;
+    }
+  }
+}
+
+.forgot-box {
+  background-color: rgb(45, 211, 175);
+  border-radius: 10px;
+  opacity: 1;
+  width: 450px;
+  height: 400px;
+
+  >div {
+    >img {
+      margin-top: 50px;
+      width: 100px;
+      height: 100px;
+      margin-left: 170px;
+    }
+  }
+
+  >div {
+    >.input-box {
+      border: none;
+      background-color: transparent;
+    }
+  }
+}
+
+.resetPassword-box {
+  background-color: rgb(45, 211, 175);
+  border-radius: 10px;
+  opacity: 1;
+  width: 450px;
+  height: 500px;
+
+  >div {
+    >img {
+      margin-top: 40px;
+      width: 100px;
+      height: 100px;
+      margin-left: 170px;
+    }
+  }
+
+  >div {
+    >.input-box {
+      border: none;
+      background-color: transparent;
+    }
+  }
+}
+
+.forget-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.non-user {
+  text-align: center;
+}
+
+.already-user {
+  text-align: center;
+}
+
+.pwd-container {
+  position: relative;
+}
+
+.pwd-container img {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  right: 10px;
+  top: 14px;
+}
